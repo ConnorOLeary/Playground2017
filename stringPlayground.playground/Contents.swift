@@ -30,3 +30,23 @@ print(count.characters.count)
 
 
 //ComparingStrings
+var test1 :String
+test1 = "a"
+var test2 :String
+test2 = "b"
+
+if test1 == test2 {
+    print("Tests are the same!")
+}
+else {
+    print("Tests are different!")
+}
+
+test2 = "a"
+if test1 == test2 {
+    print("Tests are the same!")
+}
+else {
+    print("Tests are different!")
+}
+
